@@ -1,0 +1,24 @@
+# .NET build output
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# React client
+client/node_modules/
+client/dist/
+*.log
+
+# Built client copied into the API for production hosting (T136)
+API/wwwroot/
+
+# Local secrets never belong in the repo (dev secrets live in dotnet user-secrets)
+.env*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+/auth-cookie-flow.md
+/Learn.txt
